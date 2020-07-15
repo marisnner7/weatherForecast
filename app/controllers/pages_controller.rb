@@ -12,6 +12,7 @@ class PagesController < ApplicationController
   @final_output = @output[0]['ReportingArea']
   @latitude = @output[0]['Latitude']
   @longitude = @output[0]['Longitude']
+  @weather_forecast = @output[0]['Category']['Name']
       
   end
 end
